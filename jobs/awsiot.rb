@@ -27,9 +27,9 @@ Thread.new do
         parsed = JSON.parse(message) 
         send_event('humidity',    { value: parsed["hum"] })
         send_event('temperature', { value: parsed["temp"] })
-        send_event('voltage',     { value: parsed["mvolt"]/1000 })
+        send_event('voltage',     { value: format("%.1f", Float(parsed["mvolt"])/1000) })
       rescue
-        # 
+        p "Exception"
       end
     end
   end
