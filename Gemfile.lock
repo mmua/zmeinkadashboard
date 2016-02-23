@@ -41,6 +41,7 @@ GEM
     json (1.8.3)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
+    mqtt (0.3.1)
     multi_json (1.11.2)
     multipart-post (2.0.0)
     naught (1.1.0)
@@ -115,6 +116,8 @@ PLATFORMS
 
 DEPENDENCIES
   dashing
+  json
+  mqtt
   omniauth-google-apps
   twitter (>= 5.9.0)
 
