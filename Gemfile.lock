@@ -110,6 +110,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.2)
+    xml-simple (1.1.5)
 
 PLATFORMS
   ruby
@@ -120,6 +121,7 @@ DEPENDENCIES
   mqtt
   omniauth-google-apps
   twitter (>= 5.9.0)
+  xml-simple
 
 BUNDLED WITH
    1.11.2
